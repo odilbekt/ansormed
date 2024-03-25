@@ -88,23 +88,23 @@ p {
 	transition: all 0.4s ease;
 }
 
-.site-logo__img {
+.site-logo-img {
 	width: 50px;
 	height: 50px;
 	margin-right: 16px;
 }
 
-.site-logo__link {
+.site-logo-link {
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 1.4;
 }
 
-.site-logo__link:hover {
+.site-logo-link:hover {
 	color: #de2e54;
 }
 
-.site-logo__link:active {
+.site-logo-link:active {
 	opacity: 0.6;
 }
 
@@ -157,14 +157,14 @@ p {
 	width: 100%;
 }
 
-.site-hero-info__title {
+.site-hero__info-title {
 	margin-bottom: 16px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.2;
 }
 
-.site-hero-info__text {
+.site-hero__info-text {
 	margin-bottom: 36px;
 	font-size: 18px;
 	line-height: 1.5;
@@ -205,7 +205,7 @@ p {
 	padding-bottom: 120px;
 }
 
-.services___title {
+.services__title {
 	text-align: center;
 	font-weight: 700;
 	font-size: 36px;
@@ -214,7 +214,7 @@ p {
 	margin-bottom: 56px;
 }
 
-.services___list {
+.services__list {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -225,25 +225,25 @@ p {
 	margin-bottom: 60px;
 }
 
-.services___item {
+.services__item {
 	display: flex;
 	align-items: center;
 }
 
-.services___item:not(:last-child) {
+.services__item:not(:last-child) {
 	margin-bottom: 80px;
 }
 
-.services___img {
+.services__img {
 	margin-right: 64px;
 }
 
-.services___img img {
+.services__img img {
 	width: 200px;
 	height: 200px;
 }
 
-.services___info {
+.services__info {
 	max-width: 600px;
 	width: 100%;
 }
@@ -318,6 +318,7 @@ p {
 
 .site-footer__title {
 	color: #fff;
+	transition: all 0.4s ease;
 }
 
 .site-footer__title:hover {
@@ -330,6 +331,7 @@ p {
 
 .site-footer__link {
 	color: #fff;
+	text-decoration: none;
 }
 
 .site-footer__link:active {
